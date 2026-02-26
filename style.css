@@ -83,3 +83,19 @@ header img {
   border-left: 6px solid #d4d4d4;
   border-radius: 8px;
 }
+
+.links-masonry {
+  column-count: 2;
+  column-gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.links-item {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+}
+
+.links-item img {
+  width: 100%;
+  height: auto;
+}
